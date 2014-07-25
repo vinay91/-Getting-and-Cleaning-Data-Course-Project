@@ -33,25 +33,25 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 ## Steps taken to achieve the expected results.
 
-1. Load the following files into R using read.table fuction.
+* Load the following files into R using read.table fuction.
 
-* activity_labels.txt
+1. activity_labels.txt
 
-* features.txt
+2. features.txt
 
-* X_test.txt & Y_test.txt
+3. X_test.txt & Y_test.txt
 
-* X_train.txt & Y_train.txt
+4. X_train.txt & Y_train.txt
 
-2. Extract only the measurements on the mean and standard deviation using grepl function.
+* Extract only the measurements on the mean and standard deviation using grepl function.
 
-3.Column Bind the test & train data so that it contains all the features, subject, Avtivity ID and the Activity Label.
+* Column Bind the test & train data so that it contains all the features, subject, Avtivity ID and the Activity Label.
 
-4. Merge the test and train data from step 4 using the rbind function
+* Merge the test and train data from step 4 using the rbind function
 
-5. Use the melt function to make a tidy dataset that clearly shows the id labels vs the measured labels/columns.
+* Use the melt function to make a tidy dataset that clearly shows the id labels vs the measured labels/columns.
 
-6. Use the dcast function to get a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Use the dcast function to get a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##codebook.md
 
