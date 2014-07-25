@@ -51,11 +51,13 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 7. Use the dcast function to get a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Check the 
-##codebook.md for detailed description of the variables, the data, and any transformations or work that was performed to clean up the data.
+##codebook.md
 
-Check the 
-##run_analysis.R file for the exact R Script employed to get the expected results.
+Contains detailed description of the variables, the data, and any transformations or work that was performed to clean up the data.
+
+##run_analysis.R 
+
+Contains the R Script employed to get the expected results.
 
 
 
