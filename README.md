@@ -25,9 +25,9 @@ To demonstrate my ability to collect, work with, and clean a data set. The goal 
 
 ##Dependencies/R Packages required. 
 
-* reshape2
+'* reshape2'
 
-* data.table
+'* data.table'
 
 Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
@@ -35,13 +35,13 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 * Load the following files into R using read.table fuction.
 
-  a. activity_labels.txt
+  'a. activity_labels.txt'
 
-  b. features.txt
+  'b. features.txt'
 
-  c. X_test.txt & Y_test.txt
+  'c. X_test.txt & Y_test.txt'
 
-  d. X_train.txt & Y_train.txt
+  'd. X_train.txt & Y_train.txt'
 
 * Extract only the measurements on the mean and standard deviation using grepl function.
 
