@@ -35,9 +35,9 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 * Load the following files into R using read.table fuction.
 
-  'a. activity_labels.txt'
+  'activity_labels.txt'
 
-  'b. features.txt'
+  'b features.txt'
 
   'c. X_test.txt & Y_test.txt'
 
