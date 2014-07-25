@@ -58,4 +58,4 @@ There are 5 parts:
     Load the features and activity labels.
     Extract the mean and standard deviation column names and data.
     Process the data. There are two parts processing test and train data respectively.
-    Merge data set.
+    ##Merge data set.
