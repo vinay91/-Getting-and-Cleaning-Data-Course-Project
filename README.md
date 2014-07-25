@@ -35,10 +35,10 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 * Load the following files into R using read.table fuction.
 
-1. activity_labels.txt
-2. features.txt
-3. X_test.txt & Y_test.txt
-4. X_train.txt & Y_train.txt
+a. activity_labels.txt
+b. features.txt
+c. X_test.txt & Y_test.txt
+d. X_train.txt & Y_train.txt
 
 * Extract only the measurements on the mean and standard deviation using grepl function.
 
