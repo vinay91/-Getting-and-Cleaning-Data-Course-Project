@@ -21,9 +21,9 @@ To demonstrate my ability to collect, work with, and clean a data set. The goal 
     
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Steps taken to achieve the expected results.
 
-1. The following packages were used.
+
+##Dependencies/R Packages required. 
 
 * reshape2
 
@@ -31,7 +31,9 @@ To demonstrate my ability to collect, work with, and clean a data set. The goal 
 
 Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
-2. Load the following files into R using read.table fuction.
+## Steps taken to achieve the expected results.
+
+1. Load the following files into R using read.table fuction.
 
 * activity_labels.txt
 
@@ -41,15 +43,15 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 * X_train.txt & Y_train.txt
 
-3. Extract only the measurements on the mean and standard deviation using grepl function.
+2. Extract only the measurements on the mean and standard deviation using grepl function.
 
-4.Column Bind the test & train data so that it contains all the features, subject, Avtivity ID and the Activity Label.
+3.Column Bind the test & train data so that it contains all the features, subject, Avtivity ID and the Activity Label.
 
-5. Merge the test and train data from step 4 using the rbind function
+4. Merge the test and train data from step 4 using the rbind function
 
-6. Use the melt function to make a tidy dataset that clearly shows the id labels vs the measured labels/columns.
+5. Use the melt function to make a tidy dataset that clearly shows the id labels vs the measured labels/columns.
 
-7. Use the dcast function to get a second, independent tidy data set with the average of each variable for each activity and each subject.
+6. Use the dcast function to get a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##codebook.md
 
