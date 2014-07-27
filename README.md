@@ -47,7 +47,7 @@ Note: Make sure that the UCI HAR Dataset folder is in the Working Directory.
 
 * Column Bind the test & train data so that it contains all the features, subject, Avtivity ID and the Activity Label.
 
-* Merge the test and train data from step 4 using the rbind function
+* Merge the test and train data from step 4 using the rbind function.
 
 * Use the melt function to make a tidy dataset that clearly shows the id labels vs the measured labels/columns.
 
